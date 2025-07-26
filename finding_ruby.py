@@ -1,3 +1,4 @@
+# Welcome the user with a dog ASCII art to show them what Ruby looks like.
 print(r'''
 *******************************************************************************
                                         /\ /\
@@ -33,7 +34,9 @@ print(r'''
 print("Hey! Can you help Francine find her favorite dog Ruby?")
 print("Ruby was last seen on the street outside their house.")
 
+# The user input would be stored in the direction variable.
 direction = str(input("Would you want to go left or right? Enter 'left' or 'right'. "))
+# If user chose left, do this. Else, do this.
 if direction.lower() == "left":
     print("__________________________________________________________\n"
           "Their neighbor had a big dog and Ruby would not go there.\n"
@@ -42,6 +45,7 @@ if direction.lower() == "left":
           "__________________________________________________________")
 elif direction.lower() == "right":
     print("Great job! You saw Ruby's foot prints but it was gone near a fork road.")
+  # Similar to the first one, the user input would be stored to the assigned variable.
     location = str(input("Do you think Ruby went to the park or the store? Enter 'park' or 'store'. "))
     if location.lower() == "park":
         print("__________________________________________________________\n"
@@ -85,3 +89,4 @@ else:
     "Please choose a direction from the choices.\n"
     "Game over.\n"
     ">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
+  # Print statements will be displayed based on the outcome of the user's decisions.
