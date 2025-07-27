@@ -33,4 +33,4 @@ You're helping Francine help find her dog named Ruby. You get to make decisions 
 ## Contributor
 
 Francine Claire Punzalan<br>
-First project on Udemy [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
+Project from Udemy [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
